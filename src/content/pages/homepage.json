@@ -196,7 +196,12 @@
                         "value": "-50 %",
                         "showCheckmark": true
                     }
-                ]
+                ],
+                "testimonial": {
+                    "quote": "Spolupráce je vždy férová a získali si nás nejen perfektně odvedenou prací, ale také lidským přístupem. Záleží jim na tom, abyste dosáhli efektivně toho nejlepšího výsledku. Můžeme jim maximálně důvěřovat a víme, že zadanou práci odvedou vždy na 100%.\n",
+                    "name": "Jan Stránský",
+                    "role": "SEVA"
+                }
             },
             {
                 "tabLabel": "BigMat",
@@ -218,7 +223,12 @@
                         "value": "-1 000 0000 Kč",
                         "showCheckmark": false
                     }
-                ]
+                ],
+                "testimonial": {
+                    "quote": "Na spolupráci jsme nejvíce oceňovali ochotu rychlé reakce a výbornou komunikaci. Součástí spolupráce byl i pravidelný reporting výsledků kampaně. Vždy nám bylo vše vysvětleno tak aby tomu porozuměl každý. Agenturu bych jako zástupce centrály BigMat CZ (Evropská síť stavebniny)doporučil.\n",
+                    "name": "Václav Hejna",
+                    "role": "BigMat"
+                }
             },
             {
                 "tabLabel": "P-LAB",
