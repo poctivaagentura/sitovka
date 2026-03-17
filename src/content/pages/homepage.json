@@ -362,14 +362,6 @@
                 "isFeatured": false
             },
             {
-                "name": "Olga OLŠOVÁ",
-                "role": "obsahový a marketingový manažer",
-                "email": "olga@sitovka.net",
-                "phone": "+420 732 193 500",
-                "avatar": "../../assets/images/team/team/4/avatar.jpg",
-                "isFeatured": false
-            },
-            {
                 "name": "Jan ŠEVČÍK",
                 "role": "programátor",
                 "email": "honza@sitovka.net",
