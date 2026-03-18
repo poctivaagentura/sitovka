@@ -23,20 +23,20 @@ export const ContactModalCard: React.FC<ContactModalCardProps> = ({
         <img
           src={person.avatar.src || person.avatar}
           alt={person.name}
-          width={180}
-          height={180}
-          className="rounded-full w-45 h-45 object-cover mb-[30px] bg-brand-surface"
+          width={120}
+          height={120}
+          className="rounded-full w-30 h-30 object-cover mb-5 bg-brand-surface"
         />
       ) : (
-        <div className="rounded-full w-45 h-45 bg-brand-surface mb-[30px]" />
+        <div className="rounded-full w-30 h-30 bg-brand-surface mb-5" />
       )}
 
-      <h3 className="text-lg font-brand-heading text-brand-dark mb-2 uppercase">
+      <h3 className="text-base font-brand-heading text-brand-dark mb-1 uppercase">
         {person.name}
       </h3>
 
       {person.role && person.role.trim() !== "" && (
-        <p className="text-sm font-book text-brand-dark mb-6">{person.role}</p>
+        <p className="text-sm font-book text-brand-dark mb-4">{person.role}</p>
       )}
 
       {(person.email || person.phone) && (

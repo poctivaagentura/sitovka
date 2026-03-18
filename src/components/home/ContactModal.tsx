@@ -45,11 +45,11 @@ export const ContactModal: React.FC<ContactModalProps> = ({
                 transition={{ duration: 0.2, ease: "easeOut" }}
                 style={{ pointerEvents: "none" }}
               >
-                <div className="relative bg-white rounded-[60px] p-16 shadow-xl w-full max-w-full sm:max-w-[750px] mx-auto pointer-events-auto">
+                <div className="relative bg-white rounded-[30px] p-8 shadow-xl w-full max-w-full sm:max-w-[750px] max-h-[90vh] overflow-y-auto mx-auto pointer-events-auto">
                   {/* Close Button */}
                   <Dialog.Close asChild>
                     <button
-                      className="absolute top-8 right-8 inline-flex items-center justify-center rounded-full w-10 h-10 text-brand-dark hover:bg-brand-surface transition-colors cursor-pointer"
+                      className="absolute top-4 right-4 inline-flex items-center justify-center rounded-full w-10 h-10 text-brand-dark hover:bg-brand-surface transition-colors cursor-pointer z-10"
                       aria-label="Zavřít"
                     >
                       <svg
@@ -70,7 +70,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({
                   </Dialog.Close>
 
                   {/* Contact Cards Grid - Flexible layout based on count */}
-                  <div className="flex flex-wrap justify-center gap-8 mt-4">
+                  <div className="flex flex-wrap justify-center gap-6">
                     {people.map((person, index) => (
                       <ContactModalCard
                         key={`${person.name}-${index}`}
