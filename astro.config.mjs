@@ -5,7 +5,7 @@ import svgr from "vite-plugin-svgr";
 import netlify from "@astrojs/netlify";
 
 export default defineConfig({
-  site: "https://sitovka.netlify.app",
+  site: "https://sitovka.net",
   output: "static",
   adapter: netlify(),
   integrations: [react()],

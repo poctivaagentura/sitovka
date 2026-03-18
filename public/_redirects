@@ -1,0 +1,9 @@
+# Netlify redirects for sitovka.net
+# Redirect netlify.app subdomain to custom domain
+https://sitovka.netlify.app/* https://sitovka.net/:splat 301!
+
+# Redirect www to apex domain
+https://www.sitovka.net/* https://sitovka.net/:splat 301!
+
+# Redirect HTTP to HTTPS
+http://sitovka.net/* https://sitovka.net/:splat 301!
