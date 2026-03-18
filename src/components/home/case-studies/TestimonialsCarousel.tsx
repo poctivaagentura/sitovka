@@ -10,8 +10,24 @@ import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { cn } from "@/utils/cn";
 
+interface TestimonialItem {
+  name?: string;
+  role?: string;
+  content: string;
+  avatar?: {
+    src: string;
+    width?: number;
+    height?: number;
+  };
+  logo?: {
+    src: string;
+    width?: number;
+    height?: number;
+  };
+}
+
 interface Props {
-  items: any[];
+  items: TestimonialItem[];
   onNavigationChange?: (needsNavigation: boolean) => void;
 }
 
@@ -145,7 +161,7 @@ const TestimonialsCarousel = forwardRef<TestimonialsCarouselRef, Props>(
           {needsNavigation && (
             <button
               onClick={() => emblaApi?.scrollPrev()}
-              className="hidden md:flex p-3 rounded-full hover:bg-white/10 transition-colors"
+              className="hidden md:flex p-3 rounded-full hover:bg-white/10 transition-colors min-w-[48px] min-h-[48px] items-center justify-center"
               aria-label="Předchozí reference"
             >
               <ChevronLeft className="w-8 h-8 text-white" />
@@ -168,50 +184,66 @@ const TestimonialsCarousel = forwardRef<TestimonialsCarouselRef, Props>(
                     : "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4",
                 )}
               >
-                {(needsNavigation ? clonedItems : items).map((item, idx) => (
-                  <div
-                    key={`${item.name || idx}-${idx}`}
-                    className={cn(
-                      needsNavigation ? slideClass : "px-2.5",
-                      "min-w-0",
-                    )}
-                  >
-                    <div className="flex flex-col text-sm">
-                      <div className="flex gap-5 mb-[30px] items-center flex-wrap">
-                        {item.avatar && (
-                          <img
-                            src={item.avatar.src}
-                            alt="Avatar"
-                            className="w-16 h-16 rounded-full object-cover"
+                {(needsNavigation ? clonedItems : items).map((item, idx) => {
+                  const isCloned = needsNavigation && idx >= originalItemCount;
+
+                  return (
+                    <div
+                      key={`${item.name || idx}-${idx}`}
+                      className={cn(
+                        needsNavigation ? slideClass : "px-2.5",
+                        "min-w-0",
+                      )}
+                      aria-hidden={isCloned ? "true" : undefined}
+                      tabIndex={isCloned ? -1 : undefined}
+                    >
+                      <div className="flex flex-col text-sm">
+                        <div className="flex gap-5 mb-[30px] items-center flex-wrap">
+                          {item.avatar && (
+                            <img
+                              src={item.avatar.src}
+                              alt={isCloned ? "" : "Avatar"}
+                              width={item.avatar.width || 64}
+                              height={item.avatar.height || 64}
+                              loading={isCloned ? "lazy" : "eager"}
+                              decoding="async"
+                              className="w-16 h-16 rounded-full object-cover"
+                              aria-hidden={isCloned ? "true" : undefined}
+                            />
+                          )}
+                          {item.logo && (
+                            <img
+                              src={item.logo.src}
+                              alt={isCloned ? "" : "Client Logo"}
+                              width={item.logo.width || 96}
+                              height={item.logo.height || 40}
+                              loading={isCloned ? "lazy" : "eager"}
+                              decoding="async"
+                              className="w-24 h-10 object-contain"
+                              aria-hidden={isCloned ? "true" : undefined}
+                            />
+                          )}
+                        </div>
+                        <div className="mb-[30px]">
+                          <div
+                            className="font-book italic text-brand-dark"
+                            dangerouslySetInnerHTML={{ __html: item.content }}
                           />
+                        </div>
+                        {item.name && (
+                          <div className="font-bold text-brand-dark">
+                            {item.name}
+                          </div>
                         )}
-                        {item.logo && (
-                          <img
-                            src={item.logo.src}
-                            alt="Client Logo"
-                            className="w-24 h-10 object-contain"
-                          />
+                        {item.role && (
+                          <div className="font-book text-brand-dark">
+                            {item.role}
+                          </div>
                         )}
                       </div>
-                      <div className="mb-[30px]">
-                        <div
-                          className="font-book italic text-brand-dark"
-                          dangerouslySetInnerHTML={{ __html: item.content }}
-                        />
-                      </div>
-                      {item.name && (
-                        <div className="font-bold text-brand-dark">
-                          {item.name}
-                        </div>
-                      )}
-                      {item.role && (
-                        <div className="font-book text-brand-dark">
-                          {item.role}
-                        </div>
-                      )}
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
                 {items.length === 0 && (
                   <div className="flex-[0_0_100%] min-w-0">
                     <div className="p-6 bg-white/10 rounded-3xl">
@@ -227,7 +259,7 @@ const TestimonialsCarousel = forwardRef<TestimonialsCarouselRef, Props>(
           {needsNavigation && (
             <button
               onClick={() => emblaApi?.scrollNext()}
-              className="hidden md:flex p-3 rounded-full hover:bg-white/10 transition-colors"
+              className="hidden md:flex p-3 rounded-full hover:bg-white/10 transition-colors min-w-[48px] min-h-[48px] items-center justify-center"
               aria-label="Další reference"
             >
               <ChevronRight className="w-6 h-6 text-white" />

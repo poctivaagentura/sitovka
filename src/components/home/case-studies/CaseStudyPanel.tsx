@@ -107,6 +107,10 @@ export const CaseStudyPanel = ({ study, className }: Props) => {
               <img
                 src={study.testimonial.avatar.src}
                 alt={study.testimonial.name}
+                width={study.testimonial.avatar.width || 64}
+                height={study.testimonial.avatar.height || 64}
+                loading="lazy"
+                decoding="async"
                 className="w-16 h-16 rounded-full object-cover"
               />
             )}
@@ -114,6 +118,10 @@ export const CaseStudyPanel = ({ study, className }: Props) => {
               <img
                 src={study.testimonial.clientLogo.src}
                 alt="Client logo"
+                width={study.testimonial.clientLogo.width || 120}
+                height={study.testimonial.clientLogo.height || 40}
+                loading="lazy"
+                decoding="async"
                 className="h-10 w-auto object-contain"
               />
             )}
@@ -162,3 +170,5 @@ export const CaseStudyPanel = ({ study, className }: Props) => {
     </div>
   );
 };
+
+CaseStudyPanel.displayName = "CaseStudyPanel";

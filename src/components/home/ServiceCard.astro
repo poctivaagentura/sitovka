@@ -26,6 +26,10 @@ const html = mdToHtml(item.description);
       <img
         src={item.image.src}
         alt={item.title}
+        width={item.image.width}
+        height={item.image.height}
+        loading="lazy"
+        decoding="async"
         class="w-full h-full rounded-[60px] max-h-[500px] object-cover"
         data-sb-field-path=".image"
       />

@@ -6,7 +6,11 @@ interface Props {
     heading: string;
     col1: string;
     col2: string;
-    image?: any;
+    image?: {
+      src: string;
+      width?: number;
+      height?: number;
+    };
   };
 }
 
@@ -21,6 +25,8 @@ const hasImage = bio.image && bio.image !== null;
 
 // Handle both string path and object with src property
 const imageSrc = typeof bio.image === 'string' ? bio.image : bio.image?.src;
+const imageWidth = typeof bio.image === 'object' ? bio.image?.width : undefined;
+const imageHeight = typeof bio.image === 'object' ? bio.image?.height : undefined;
 
 // Create unified content array
 const contentItems = [
@@ -29,6 +35,8 @@ const contentItems = [
   ...(hasImage && imageSrc ? [{
     type: 'image' as const,
     src: imageSrc,
+    width: imageWidth,
+    height: imageHeight,
     alt: '',
     field: 'about.image'
   }] : [])
@@ -55,6 +63,10 @@ const contentItems = [
               <img
                 src={item.src}
                 alt={item.alt}
+                width={item.width || 600}
+                height={item.height || 400}
+                loading="lazy"
+                decoding="async"
                 class="w-full h-auto max-h-[400px] object-contain -mb-24 lg:-mb-32 scale-110 origin-bottom"
               />
             </div>

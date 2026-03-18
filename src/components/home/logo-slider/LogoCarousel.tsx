@@ -134,35 +134,48 @@ export const LogoCarousel = ({ logos }: Props) => {
       <div className="flex touch-pan-y gap-2.5" aria-roledescription="carousel">
         {duplicatedLogos.map((logo, index) => {
           const isOriginal = index < logos.length;
-          const accessibilityProps = !isOriginal
-            ? {
-                tabIndex: -1,
-                "aria-hidden": true,
-              }
-            : {};
 
           const slideContent = (
-            <div className="w-full h-full flex items-center justify-center">
+            <div className="w-full h-full flex items-center justify-center pointer-events-none">
               <img
                 src={logo.src}
-                alt={logo.alt || logo.name || "Client logo"}
+                alt={isOriginal ? logo.alt || logo.name || "Client logo" : ""}
+                width={logo.width}
+                height={logo.height}
+                loading={isOriginal ? "eager" : "lazy"}
+                decoding="async"
                 className="max-h-20 w-auto object-contain py-4"
+                aria-hidden={!isOriginal}
               />
             </div>
           );
+
+          // For duplicated slides, don't render focusable links
+          // This fixes the "aria-hidden elements contain focusable descendants" issue
+          if (!isOriginal) {
+            return (
+              <div
+                key={`${logo.src}-${index}`}
+                className="flex-[0_0_calc((100%-20px)/3)] md:flex-[0_0_calc((100%-40px)/5)] min-w-0 bg-brand-surface rounded-[60px] h-50 flex items-center justify-center hover:grayscale-0 transition-all duration-500 grayscale"
+                aria-hidden="true"
+                tabIndex={-1}
+              >
+                {slideContent}
+              </div>
+            );
+          }
 
           return (
             <div
               key={`${logo.src}-${index}`}
               className="flex-[0_0_calc((100%-20px)/3)] md:flex-[0_0_calc((100%-40px)/5)] min-w-0 bg-brand-surface rounded-[60px] h-50 flex items-center justify-center hover:grayscale-0 transition-all duration-500 grayscale"
-              {...accessibilityProps}
             >
               {logo.href ? (
                 <a
                   href={logo.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block w-full h-full"
+                  className="block w-full h-full flex items-center justify-center"
                   aria-label={`Visit ${logo.name || "client"} website`}
                 >
                   {slideContent}

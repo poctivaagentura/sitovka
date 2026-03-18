@@ -184,10 +184,6 @@ export const HeroAccordion = ({ cards, defaultActiveIndex = 0 }: HeroProps) => {
                   backgroundImage: card.image
                     ? `url(${card.image.src})`
                     : "none",
-                  // BACKGROUND TOGGLE: Uncomment the option you want to test
-                  // Option A: Cover (fills card, may crop)
-                  // backgroundSize: "cover",
-                  // Option B: Full height centered (current)
                   backgroundSize: "auto 100%",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
@@ -234,7 +230,6 @@ export const HeroAccordion = ({ cards, defaultActiveIndex = 0 }: HeroProps) => {
             const isActive = index === activeIndex;
             // Always use layout percentages - mobile/desktop switching is handled by CSS display
             const targetWidth = `${currentLayout[index]}%`;
-            const layoutForIndex = currentLayout[index];
 
             // Start at 5% width and expand to target with stagger (only on initial load)
             const initialWidth = "5%";
@@ -333,7 +328,6 @@ export const HeroAccordion = ({ cards, defaultActiveIndex = 0 }: HeroProps) => {
           })}
         </div>
 
-        {/* Desktop Pagination Dots */}
         <div className="flex items-center justify-center gap-2">
           {cards.map((_, index) => (
             <motion.button
@@ -360,3 +354,5 @@ export const HeroAccordion = ({ cards, defaultActiveIndex = 0 }: HeroProps) => {
     </>
   );
 };
+
+HeroAccordion.displayName = "HeroAccordion";
