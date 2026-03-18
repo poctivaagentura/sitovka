@@ -96,7 +96,8 @@ const HeroLines = ({
         <div
           key={index}
           className={cn(
-            "font-brand-heading whitespace-nowrap leading-[0.95]",
+            "font-brand-heading leading-[0.95]",
+            isMobile ? "whitespace-normal" : "whitespace-nowrap",
             getColorClass(line.color),
           )}
           style={{
