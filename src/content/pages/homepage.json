@@ -1,378 +1,378 @@
 {
-  "type": "Homepage",
-  "hero": {
-    "cards": [
-      {
-        "lines": [
-          {
-            "text": "#brand a kreativa",
-            "color": "white"
-          },
-          {
-            "text": "co nese ovoce",
-            "color": "white"
-          }
-        ],
-        "alignment": "left",
-        "supplementary": {
-          "text": "#neseme vám online řešení",
-          "position": "bottom-right"
-        },
-        "image": "../../assets/images/hero/cards/0/image.webp",
-        "theme": "green"
-      },
-      {
-        "lines": [
-          {
-            "text": "#marketing,",
-            "color": "dark"
-          },
-          {
-            "text": "který",
-            "color": "white"
-          },
-          {
-            "text": "zraje",
-            "color": "white"
-          }
-        ],
-        "alignment": "right",
-        "supplementary": {
-          "text": "#neseme vám online řešení",
-          "position": "bottom-left"
-        },
-        "image": "../../assets/images/hero/cards/1/image.png",
-        "theme": "green"
-      },
-      {
-        "lines": [
-          {
-            "text": "#výkon,",
-            "color": "dark"
-          },
-          {
-            "text": "který",
-            "color": "white"
-          },
-          {
-            "text": "přináší zásah",
-            "color": "white"
-          }
-        ],
-        "alignment": "left",
-        "supplementary": {
-          "text": "#neseme vám online řešení",
-          "position": "bottom-right"
-        },
-        "image": "../../assets/images/hero/cards/2/image.png",
-        "theme": "green"
-      },
-      {
-        "lines": [
-          {
-            "text": "#kampaně,",
-            "color": "dark"
-          },
-          {
-            "text": "co nakopnou",
-            "color": "white"
-          },
-          {
-            "text": "výsledky",
-            "color": "white"
-          }
-        ],
-        "alignment": "left",
-        "supplementary": {
-          "text": "#neseme vám online řešení",
-          "position": "bottom-right"
-        },
-        "image": "../../assets/images/hero/cards/3/image.png",
-        "theme": "green"
-      },
-      {
-        "lines": [
-          {
-            "text": "#obsah,",
-            "color": "dark"
-          },
-          {
-            "text": "co zvedá",
-            "color": "white"
-          },
-          {
-            "text": "dosah",
-            "color": "white"
-          }
-        ],
-        "alignment": "right",
-        "supplementary": {
-          "text": "#neseme vám online řešení",
-          "position": "bottom-left"
-        },
-        "image": "../../assets/images/jana.png",
-        "theme": "green"
-      }
-    ]
-  },
-  "about": {
-    "heading": "O nás",
-    "col1": "Jsme Síťovka – obsahová agentura, která věří, že dobrý obsah dokáže víc než reklama. Pomáháme značkám i jednotlivcům **zviditelnit se v digitálním světě** – mluvit jasně, autenticky a s dlouhodobým efektem. Nevyrábíme instantní posty ani prázdné kampaně. Tvoříme **obsah, který dává smysl – baví, vzdělává nebo prodává.** Každý příspěvek, článek i video má svůj účel, strategii a přidanou hodnotu.\n",
-    "col2": "Zaměřujeme se na **LinkedIn**, kde pomáháme budovat **osobní i firemní značky.** Spravujeme profily, píšeme texty, vymýšlíme strategie a kampaně, které fungují. Umíme ale i další sociální sítě, blogy, články a spolupráce s influencery či UGC tvůrci. Od prvního nápadu až po publikaci se **postaráme o to, aby váš obsah byl vidět a slyšet** na těch správných místech.\n\n\n\nNavrhujeme strategie a připravujeme **výkonnostní kampaně**, které přivádí nové návštěvníky, objednávky i reálný zisk a nasměrují váš e-shop k lepším výsledkům.\n",
-    "image": "../../assets/images/about/bio/image.png",
-    "benefits": [
-      {
-        "iconId": "board",
-        "titleHashtag": "#děláme",
-        "titleRemainder": "obsah, který funguje",
-        "description": "Spravujeme sociální sítě, tvoříme texty, fotky i videa, které baví lidi, podporují značku i prodávají"
-      },
-      {
-        "iconId": "target",
-        "titleHashtag": "#umíme",
-        "titleRemainder": " zacílit správně",
-        "description": "Nastavíme kampaně tak, aby oslovily ty, na kterých vám opravdu záleží — bez plýtvání rozpočtem."
-      },
-      {
-        "iconId": "light",
-        "titleHashtag": "#jsme",
-        "titleRemainder": "kreativní a féroví",
-        "description": "Kombinujeme nápady s daty, držíme krok s trendy a mluvíme s vámi lidsky, ne agenturně."
-      }
-    ]
-  },
-  "services": {
-    "headingHighlight": "Co umíme?",
-    "headingRemainder": "Tvoříme obsah, který zaujme, vzdělává nebo prodává.",
-    "introText": "Od nápadu po publikaci tvoříme obsah, který dává smysl lidem i algoritmům. Budujeme autentické osobní i firemní značky, připravujeme texty, vizuály, strategie a kampaně s výsledky. Zvládáme i další sítě, blogy, články a spolupráce s influencery či UGC tvůrci, každý formát využíváme  k zapamatovatelnému vyprávění vašeho příběhu. \n",
-    "items": [
-      {
-        "title": "#tým",
-        "description": "**Nejsme korporát** ani anonymní agentura. Jsme tým lidí, kteří s vámi komunikují napřímo, lidsky a na rovinu. Nasloucháme vašim potřebám, ptáme se a hledáme řešení, která dávají smysl – pro vás, váš byznys i vaše zákazníky. \n",
-        "image": "../../assets/images/Sitovka Web Tym Seda.webp"
-      },
-      {
-        "image": "../../assets/images/services/items/1/image.jpg",
-        "title": "#obsah",
-        "description": "**Obsah je král** – správa sítí, webové texty, newslettery, krizová komunikace i kompletní copywriting. Tvoříme obsah na míru podle cílové skupiny a tone of voice, propojujeme kreativitu s daty a strategickým myšlením.\n"
-      },
-      {
-        "image": "../../assets/images/services/items/2/image.png",
-        "title": "#strategie",
-        "description": "Máte skvělý obsah, službu nebo produkt? My ho **přesně zacílíme** – připravíme obsah na míru, společně si stanovíme KPI, navrhneme strategii a připravíme kampaně tak, aby dorazily k těm správným lidem a doručily výsledky –  ať už se jedná o interakce, leady nebo prodeje. \n"
-      },
-      {
-        "image": "../../assets/images/services/items/3/image.jpg",
-        "title": "#technologie",
-        "description": "**Sledujeme trendy** a testujeme nové platformy, aby vaše značka byla vidět. Postaráme se o web, UX, SEO, grafiku, brand building a kompletní vizuální identitu s moderními technologiemi  a novými přístupy.\n"
-      }
-    ]
-  },
-  "caseStudies": {
-    "heading": "Případové studie našich klientů",
-    "items": [
-      {
-        "tabLabel": "SEVA",
-        "heading": "Změny výsledků Seva po navázání spolupráce s námi",
-        "description": "**Změny výsledků Seva po navázání spolupráce s námi**\n",
-        "metrics": [
-          {
-            "label": "Nárůst obratu z kampaní",
-            "value": "130 %",
-            "showCheckmark": true
-          },
-          {
-            "label": "Pokles nákladů na inzerci ",
-            "value": "-20 %",
-            "showCheckmark": true
-          },
-          {
-            "label": "Nárůst obratu e-shopu",
-            "value": "100 %",
-            "showCheckmark": true
-          },
-          {
-            "label": "Pokles nákladů na 1 objednávku ",
-            "value": "-50 %",
-            "showCheckmark": true
-          }
-        ],
-        "testimonial": {
-          "quote": "Spolupráce je vždy férová a získali si nás nejen perfektně odvedenou prací, ale také lidským přístupem. Záleží jim na tom, abyste dosáhli efektivně toho nejlepšího výsledku. Můžeme jim maximálně důvěřovat a víme, že zadanou práci odvedou vždy na 100%.\n",
-          "name": "Jan Stránský",
-          "role": "SEVA"
-        }
-      },
-      {
-        "tabLabel": "BigMat",
-        "heading": "BigMat - Strategický obsah pro stavebnictví",
-        "description": "**Změny výsledků BigMat po navázání spolupráce s námi**\n",
-        "metrics": [
-          {
-            "label": "Nárůst návštěvnosti sociálních sítí",
-            "value": "95 %",
-            "showCheckmark": true
-          },
-          {
-            "label": "Nárůst obratu společnosti ",
-            "value": "45 %",
-            "showCheckmark": true
-          },
-          {
-            "label": "Pokles nákladů na inzerci",
-            "value": "-1 mil. Kč",
-            "showCheckmark": false
-          }
-        ],
-        "testimonial": {
-          "quote": "Na spolupráci jsme nejvíce oceňovali ochotu rychlé reakce a výbornou komunikaci. Součástí spolupráce byl i pravidelný reporting výsledků kampaně. Vždy nám bylo vše vysvětleno tak aby tomu porozuměl každý. Agenturu bych jako zástupce centrály BigMat CZ (Evropská síť stavebniny)doporučil.\n",
-          "name": "Václav Hejna",
-          "role": "BigMat"
-        }
-      },
-      {
-        "tabLabel": "P-LAB",
-        "heading": "P-LAB - Komunikace vědy",
-        "description": "**Změny výsledků P-LAB po navázání spolupráce s námi**\n",
-        "metrics": [
-          {
-            "label": "Nárůst počtu sledujících FB stránky",
-            "value": "100 %",
-            "showCheckmark": true
-          },
-          {
-            "label": "Dosah jednoho příspěvku až",
-            "value": "25 000",
-            "showCheckmark": true
-          },
-          {
-            "label": "Počet oslovených uživatelů",
-            "value": "488 000",
-            "showCheckmark": true
-          },
-          {
-            "label": "Placených zobrazení ",
-            "value": "1,2 milionu",
-            "showCheckmark": true
-          }
-        ],
-        "testimonial": {
-          "quote": "\"S Janou a jejím týmem ze Síťovky.net konzultujeme naše aktivity, příspěvky a statistiky sledovanosti na sociálních sítích už několik let a jsme z naší spolupráce doslova nadšeni. Jana je profesionální, vše si předem nastuduje, navíc aktivně vyhledává nové možnosti a příležitosti.\"\n",
-          "name": "Lucie Kuchtová,",
-          "role": "marketingový manažer, P-LAB"
-        }
-      },
-      {
-        "tabLabel": "Galerie Butovice",
-        "heading": "Galerie Butovice - Lifestyle obsah",
-        "description": "**Změny výsledků Galerie Butovice po navázání spolupráce s námi**\n",
-        "metrics": [
-          {
-            "label": "Facebook",
-            "value": "+20 %",
-            "showCheckmark": true
-          },
-          {
-            "label": "Instagram",
-            "value": "+200 %",
-            "showCheckmark": true
-          }
+    "type": "Homepage",
+    "hero": {
+        "cards": [
+            {
+                "lines": [
+                    {
+                        "text": "#brand a kreativa",
+                        "color": "white"
+                    },
+                    {
+                        "text": "co nese ovoce",
+                        "color": "white"
+                    }
+                ],
+                "alignment": "left",
+                "supplementary": {
+                    "text": "#neseme vám online řešení",
+                    "position": "bottom-right"
+                },
+                "image": "../../assets/images/hero/cards/0/image.webp",
+                "theme": "green"
+            },
+            {
+                "lines": [
+                    {
+                        "text": "#marketing,",
+                        "color": "dark"
+                    },
+                    {
+                        "text": "který",
+                        "color": "white"
+                    },
+                    {
+                        "text": "zraje",
+                        "color": "white"
+                    }
+                ],
+                "alignment": "right",
+                "supplementary": {
+                    "text": "#neseme vám online řešení",
+                    "position": "bottom-left"
+                },
+                "image": "../../assets/images/hero/cards/1/image.png",
+                "theme": "green"
+            },
+            {
+                "lines": [
+                    {
+                        "text": "#výkon,",
+                        "color": "dark"
+                    },
+                    {
+                        "text": "který",
+                        "color": "white"
+                    },
+                    {
+                        "text": "přináší zásah",
+                        "color": "white"
+                    }
+                ],
+                "alignment": "left",
+                "supplementary": {
+                    "text": "#neseme vám online řešení",
+                    "position": "bottom-right"
+                },
+                "image": "../../assets/images/hero/cards/2/image.png",
+                "theme": "green"
+            },
+            {
+                "lines": [
+                    {
+                        "text": "#kampaně,",
+                        "color": "dark"
+                    },
+                    {
+                        "text": "co nakopnou",
+                        "color": "white"
+                    },
+                    {
+                        "text": "výsledky",
+                        "color": "white"
+                    }
+                ],
+                "alignment": "left",
+                "supplementary": {
+                    "text": "#neseme vám online řešení",
+                    "position": "bottom-right"
+                },
+                "image": "../../assets/images/hero/cards/3/image.png",
+                "theme": "green"
+            },
+            {
+                "lines": [
+                    {
+                        "text": "#obsah,",
+                        "color": "dark"
+                    },
+                    {
+                        "text": "co zvedá",
+                        "color": "white"
+                    },
+                    {
+                        "text": "dosah",
+                        "color": "white"
+                    }
+                ],
+                "alignment": "right",
+                "supplementary": {
+                    "text": "#neseme vám online řešení",
+                    "position": "bottom-left"
+                },
+                "image": "../../assets/images/jana.png",
+                "theme": "green"
+            }
         ]
-      }
-    ]
-  },
-  "clients": {
-    "logos": [
-      {
-        "name": "P-LAB",
-        "href": "https://www.p-lab.cz",
-        "logo": "../../assets/images/clients/logos/0/logo.svg"
-      },
-      {
-        "name": "Syntea",
-        "href": "https://www.syntea.cz",
-        "logo": "../../assets/images/clients/logos/1/logo.png"
-      },
-      {
-        "name": "ROCKWOOL",
-        "href": "https://www.rockwool.com/cz/",
-        "logo": "../../assets/images/ROCKWOOL Logo.png"
-      },
-      {
-        "name": "Renards",
-        "href": "https://www.renards.cz",
-        "logo": "../../assets/images/clients/logos/3/logo.png"
-      },
-      {
-        "name": "Zdravé ořechy",
-        "href": "https://www.zdraveorechy.cz",
-        "logo": "../../assets/images/clients/logos/4/logo.svg"
-      },
-      {
-        "name": "Hefaistos Praha",
-        "href": "https://www.hefaistospraha.cz",
-        "logo": "../../assets/images/clients/logos/5/logo.svg"
-      },
-      {
-        "name": "Haas+Sohn Rukov",
-        "href": "https://www.haassohn-rukov.cz",
-        "logo": "../../assets/images/clients/logos/6/logo.svg"
-      },
-      {
-        "name": "Beneš a Lát",
-        "href": "https://www.benesalat.cz",
-        "logo": "../../assets/images/clients/logos/7/logo.png"
-      }
-    ]
-  },
-  "contacts": {
-    "heading": "Kontakty",
-    "introText": "Spojili jsme zkušené profíky do týmu, který táhne za jeden provaz. Pracujeme poctivě, pozitivně a férově – bez agenturních frází, **vždy naplno**, s výsledky a dobrým pocitem pro všechny.\n",
-    "team": [
-      {
-        "name": "Jana ONDREJECHOVÁ",
-        "role": "obsahový guru",
-        "email": "jana@sitovka.net",
-        "phone": "+420 725 554 418",
-        "avatar": "../../assets/images/team/team/0/avatar.jpg",
-        "isFeatured": false
-      },
-      {
-        "name": "Petr HRUŠKA",
-        "role": "kreativa",
-        "email": "petr@sitovka.net",
-        "phone": "+420 603 289 747",
-        "avatar": "../../assets/images/team/team/1/avatar.jpg",
-        "isFeatured": true
-      },
-      {
-        "name": "Stanislav JULÍČEK",
-        "role": "placená propagace",
-        "email": "standa@sitovka.net",
-        "phone": "+420 777 756 772",
-        "avatar": "../../assets/images/team/team/2/avatar.jpg",
-        "isFeatured": true
-      },
-      {
-        "name": "Jaroslav MAŠEK",
-        "role": "obsahový a marketingový manažer",
-        "email": "jarda@sitovka.net",
-        "phone": "+420 605 155 174",
-        "avatar": "../../assets/images/team/team/3/avatar.jpg",
-        "isFeatured": false
-      },
-      {
-        "name": "Jan ŠEVČÍK",
-        "role": "programátor",
-        "email": "honza@sitovka.net",
-        "avatar": "../../assets/images/team/team/5/avatar.jpg",
-        "isFeatured": false
-      }
-    ]
-  },
-  "prefooter": {
-    "image": "../../assets/images/prefooter/image.png",
-    "headingHighlight": "#chcete, aby",
-    "headingRemainder": "váš obsah fungoval"
-  }
+    },
+    "about": {
+        "heading": "O nás",
+        "col1": "Jsme Síťovka – obsahová agentura, která věří, že dobrý obsah dokáže víc než reklama. Pomáháme značkám i jednotlivcům **zviditelnit se v digitálním světě** – mluvit jasně, autenticky a s dlouhodobým efektem. Nevyrábíme instantní posty ani prázdné kampaně. Tvoříme **obsah, který dává smysl – baví, vzdělává nebo prodává.** Každý příspěvek, článek i video má svůj účel, strategii a přidanou hodnotu.\n",
+        "col2": "Zaměřujeme se na **LinkedIn**, kde pomáháme budovat **osobní i firemní značky.** Spravujeme profily, píšeme texty, vymýšlíme strategie a kampaně, které fungují. Umíme ale i další sociální sítě, blogy, články a spolupráce s influencery či UGC tvůrci. Od prvního nápadu až po publikaci se **postaráme o to, aby váš obsah byl vidět a slyšet** na těch správných místech.\n\n\n\nNavrhujeme strategie a připravujeme **výkonnostní kampaně**, které přivádí nové návštěvníky, objednávky i reálný zisk a nasměrují váš e-shop k lepším výsledkům.\n",
+        "image": "../../assets/images/about/bio/image.png",
+        "benefits": [
+            {
+                "iconId": "board",
+                "titleHashtag": "#děláme",
+                "titleRemainder": "obsah, který funguje",
+                "description": "Spravujeme sociální sítě, tvoříme texty, fotky i videa, které baví lidi, podporují značku i prodávají"
+            },
+            {
+                "iconId": "target",
+                "titleHashtag": "#umíme",
+                "titleRemainder": " zacílit správně",
+                "description": "Nastavíme kampaně tak, aby oslovily ty, na kterých vám opravdu záleží — bez plýtvání rozpočtem."
+            },
+            {
+                "iconId": "light",
+                "titleHashtag": "#jsme",
+                "titleRemainder": "kreativní a féroví",
+                "description": "Kombinujeme nápady s daty, držíme krok s trendy a mluvíme s vámi lidsky, ne agenturně."
+            }
+        ]
+    },
+    "services": {
+        "headingHighlight": "Co umíme?",
+        "headingRemainder": "Tvoříme obsah, který zaujme, vzdělává nebo prodává.",
+        "introText": "Od nápadu po publikaci tvoříme obsah, který dává smysl lidem i algoritmům. Budujeme autentické osobní i firemní značky, připravujeme texty, vizuály, strategie a kampaně s výsledky. Zvládáme i další sítě, blogy, články a spolupráce s influencery či UGC tvůrci, každý formát využíváme  k zapamatovatelnému vyprávění vašeho příběhu. \n",
+        "items": [
+            {
+                "title": "#tým",
+                "description": "**Nejsme korporát** ani anonymní agentura. Jsme tým lidí, kteří s vámi komunikují napřímo, lidsky a na rovinu. Nasloucháme vašim potřebám, ptáme se a hledáme řešení, která dávají smysl – pro vás, váš byznys i vaše zákazníky. \n",
+                "image": "../../assets/images/Sitovka Web Tym Seda.webp"
+            },
+            {
+                "image": "../../assets/images/services/items/1/image.jpg",
+                "title": "#obsah",
+                "description": "**Obsah je král** – správa sítí, webové texty, newslettery, krizová komunikace i kompletní copywriting. Tvoříme obsah na míru podle cílové skupiny a tone of voice, propojujeme kreativitu s daty a strategickým myšlením.\n"
+            },
+            {
+                "image": "../../assets/images/services/items/2/image.png",
+                "title": "#strategie",
+                "description": "Máte skvělý obsah, službu nebo produkt? My ho **přesně zacílíme** – připravíme obsah na míru, společně si stanovíme KPI, navrhneme strategii a připravíme kampaně tak, aby dorazily k těm správným lidem a doručily výsledky –  ať už se jedná o interakce, leady nebo prodeje. \n"
+            },
+            {
+                "image": "../../assets/images/services/items/3/image.jpg",
+                "title": "#technologie",
+                "description": "**Sledujeme trendy** a testujeme nové platformy, aby vaše značka byla vidět. Postaráme se o web, UX, SEO, grafiku, brand building a kompletní vizuální identitu s moderními technologiemi  a novými přístupy.\n"
+            }
+        ]
+    },
+    "caseStudies": {
+        "heading": "Případové studie našich klientů",
+        "items": [
+            {
+                "tabLabel": "SEVA",
+                "heading": "Změny výsledků Seva po navázání spolupráce s námi",
+                "description": "**Změny výsledků Seva po navázání spolupráce s námi**\n",
+                "metrics": [
+                    {
+                        "label": "Nárůst obratu z kampaní",
+                        "value": "130 %",
+                        "showCheckmark": true
+                    },
+                    {
+                        "label": "Pokles nákladů na inzerci ",
+                        "value": "-20 %",
+                        "showCheckmark": true
+                    },
+                    {
+                        "label": "Nárůst obratu e-shopu",
+                        "value": "100 %",
+                        "showCheckmark": true
+                    },
+                    {
+                        "label": "Pokles nákladů na 1 objednávku ",
+                        "value": "-50 %",
+                        "showCheckmark": true
+                    }
+                ],
+                "testimonial": {
+                    "quote": "Spolupráce je vždy férová a získali si nás nejen perfektně odvedenou prací, ale také lidským přístupem. Záleží jim na tom, abyste dosáhli efektivně toho nejlepšího výsledku. Můžeme jim maximálně důvěřovat a víme, že zadanou práci odvedou vždy na 100%.\n",
+                    "name": "Jan Stránský",
+                    "role": "SEVA"
+                }
+            },
+            {
+                "tabLabel": "BigMat",
+                "heading": "BigMat - Strategický obsah pro stavebnictví",
+                "description": "**Změny výsledků BigMat po navázání spolupráce s námi**\n",
+                "metrics": [
+                    {
+                        "label": "Nárůst návštěvnosti sociálních sítí",
+                        "value": "95 %",
+                        "showCheckmark": true
+                    },
+                    {
+                        "label": "Nárůst obratu společnosti ",
+                        "value": "45 %",
+                        "showCheckmark": true
+                    },
+                    {
+                        "label": "Pokles nákladů na inzerci",
+                        "value": "-1 mil. Kč",
+                        "showCheckmark": false
+                    }
+                ],
+                "testimonial": {
+                    "quote": "Na spolupráci jsme nejvíce oceňovali ochotu rychlé reakce a výbornou komunikaci. Součástí spolupráce byl i pravidelný reporting výsledků kampaně. Vždy nám bylo vše vysvětleno tak aby tomu porozuměl každý. Agenturu bych jako zástupce centrály BigMat CZ (Evropská síť stavebniny)doporučil.\n",
+                    "name": "Václav Hejna",
+                    "role": "BigMat"
+                }
+            },
+            {
+                "tabLabel": "P-LAB",
+                "heading": "P-LAB - Komunikace vědy",
+                "description": "**Změny výsledků P-LAB po navázání spolupráce s námi**\n",
+                "metrics": [
+                    {
+                        "label": "Nárůst počtu sledujících FB stránky",
+                        "value": "100 %",
+                        "showCheckmark": true
+                    },
+                    {
+                        "label": "Dosah jednoho příspěvku až",
+                        "value": "25 000",
+                        "showCheckmark": true
+                    },
+                    {
+                        "label": "Počet oslovených uživatelů",
+                        "value": "488 000",
+                        "showCheckmark": true
+                    },
+                    {
+                        "label": "Placených zobrazení ",
+                        "value": "1,2 milionu",
+                        "showCheckmark": true
+                    }
+                ],
+                "testimonial": {
+                    "quote": "\"S Janou a jejím týmem ze Síťovky.net konzultujeme naše aktivity, příspěvky a statistiky sledovanosti na sociálních sítích už několik let a jsme z naší spolupráce doslova nadšeni. Jana je profesionální, vše si předem nastuduje, navíc aktivně vyhledává nové možnosti a příležitosti.\"\n",
+                    "name": "Lucie Kuchtová,",
+                    "role": "marketingový manažer, P-LAB"
+                }
+            },
+            {
+                "tabLabel": "Galerie Butovice",
+                "heading": "Galerie Butovice - Lifestyle obsah",
+                "description": "**Změny výsledků Galerie Butovice po navázání spolupráce s námi**\n",
+                "metrics": [
+                    {
+                        "label": "Facebook",
+                        "value": "+20 %",
+                        "showCheckmark": true
+                    },
+                    {
+                        "label": "Instagram",
+                        "value": "+200 %",
+                        "showCheckmark": true
+                    }
+                ]
+            }
+        ]
+    },
+    "clients": {
+        "logos": [
+            {
+                "name": "P-LAB",
+                "href": "https://www.p-lab.cz",
+                "logo": "../../assets/images/clients/logos/0/logo.svg"
+            },
+            {
+                "name": "Syntea",
+                "href": "https://www.syntea.cz",
+                "logo": "../../assets/images/clients/logos/1/logo.png"
+            },
+            {
+                "name": "ROCKWOOL",
+                "href": "https://www.rockwool.com/cz/",
+                "logo": "../../assets/images/ROCKWOOL Logo.png"
+            },
+            {
+                "name": "Renards",
+                "href": "https://www.renards.cz",
+                "logo": "../../assets/images/clients/logos/3/logo.png"
+            },
+            {
+                "name": "Zdravé ořechy",
+                "href": "https://www.zdraveorechy.cz",
+                "logo": "../../assets/images/clients/logos/4/logo.svg"
+            },
+            {
+                "name": "Hefaistos Praha",
+                "href": "https://www.hefaistospraha.cz",
+                "logo": "../../assets/images/clients/logos/5/logo.svg"
+            },
+            {
+                "name": "Haas+Sohn Rukov",
+                "href": "https://www.haassohn-rukov.cz",
+                "logo": "../../assets/images/clients/logos/6/logo.svg"
+            },
+            {
+                "name": "Beneš a Lát",
+                "href": "https://www.benesalat.cz",
+                "logo": "../../assets/images/clients/logos/7/logo.png"
+            }
+        ]
+    },
+    "contacts": {
+        "heading": "Kontakty",
+        "introText": "Spojili jsme zkušené profíky do týmu, který táhne za jeden provaz. Pracujeme poctivě, pozitivně a férově – bez agenturních frází, **vždy naplno**, s výsledky a dobrým pocitem pro všechny.\n",
+        "team": [
+            {
+                "name": "Jana ONDREJECHOVÁ",
+                "role": "obsahový guru",
+                "email": "jana@sitovka.net",
+                "phone": "+420 725 554 418",
+                "avatar": "../../assets/images/Sitovka Web Project (1).webp",
+                "isFeatured": false
+            },
+            {
+                "name": "Petr HRUŠKA",
+                "role": "kreativa",
+                "email": "petr@sitovka.net",
+                "phone": "+420 603 289 747",
+                "avatar": "../../assets/images/Sitovka Web ZYX2920.webp",
+                "isFeatured": true
+            },
+            {
+                "name": "Stanislav JULÍČEK",
+                "role": "placená propagace",
+                "email": "standa@sitovka.net",
+                "phone": "+420 777 756 772",
+                "avatar": "../../assets/images/Sitovka Web Design (1).webp",
+                "isFeatured": true
+            },
+            {
+                "name": "Jaroslav MAŠEK",
+                "role": "obsahový a marketingový manažer",
+                "email": "jarda@sitovka.net",
+                "phone": "+420 605 155 174",
+                "avatar": "../../assets/images/Sitovka Web Project.webp",
+                "isFeatured": false
+            },
+            {
+                "name": "Jan ŠEVČÍK",
+                "role": "programátor",
+                "email": "honza@sitovka.net",
+                "avatar": "../../assets/images/Sitovka Web Design.webp",
+                "isFeatured": false
+            }
+        ]
+    },
+    "prefooter": {
+        "image": "../../assets/images/prefooter/image.png",
+        "headingHighlight": "#chcete, aby",
+        "headingRemainder": "váš obsah fungoval"
+    }
 }

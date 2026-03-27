@@ -20,9 +20,9 @@ const { person } = Astro.props;
       <Image
         src={person.avatar}
         alt={person.name}
-        width={180}
-        height={180}
-        class="rounded-full w-45 h-45 object-cover mb-[30px] bg-brand-surface"
+        width={360}
+        height={540}
+        class="rounded-full w-45 h-45 object-cover object-[center_20%] mb-[30px] bg-brand-surface grayscale hover:grayscale-0 transition-all duration-300"
         data-sb-field-path=".avatar"
       />
     ) : (
