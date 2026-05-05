@@ -367,6 +367,13 @@
                 "email": "honza@sitovka.net",
                 "avatar": "../../assets/images/Sitovka Web Design.webp",
                 "isFeatured": false
+            },
+            {
+                "name": "Jakub Koubín",
+                "isFeatured": false,
+                "role": "PPC specialista",
+                "email": "jakub@sitovka.net",
+                "avatar": "../../assets/images/Sitovka Poctivá Agentura (1).webp"
             }
         ]
     },
