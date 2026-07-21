@@ -8,6 +8,7 @@ interface Person {
   email?: string;
   phone?: string;
   avatar?: any;
+  objectPosition?: string;
 }
 
 interface ContactModalCardProps {
@@ -26,6 +27,7 @@ export const ContactModalCard: React.FC<ContactModalCardProps> = ({
           width={120}
           height={120}
           className="rounded-full w-30 h-30 object-cover mb-5 bg-brand-surface"
+          style={person.objectPosition ? { objectPosition: person.objectPosition } : undefined}
         />
       ) : (
         <div className="rounded-full w-30 h-30 bg-brand-surface mb-5" />

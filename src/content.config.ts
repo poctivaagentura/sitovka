@@ -120,6 +120,7 @@ const contactsSchema = (image: any) =>
           phone: z.string().optional().default(""),
           avatar: image().optional(),
           isFeatured: z.boolean().optional().default(false),
+          objectPosition: z.string().optional(),
         }),
       )
       .default([]),

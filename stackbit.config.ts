@@ -271,6 +271,7 @@ export default defineStackbitConfig({
                       { name: "phone", type: "string" },
                       { name: "avatar", type: "image" },
                       { name: "isFeatured", type: "boolean", default: false },
+                      { name: "objectPosition", type: "string" },
                     ],
                   },
                 },
