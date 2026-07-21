@@ -331,7 +331,7 @@
         "team": [
             {
                 "name": "Jana ONDREJECHOVÁ",
-                "role": "obsahový guru",
+                "role": "obsah, komunikace, marketing",
                 "email": "jana@sitovka.net",
                 "phone": "+420 725 554 418",
                 "avatar": "../../assets/images/Sitovka Web Project (1).webp",
@@ -374,6 +374,15 @@
                 "role": "PPC specialista",
                 "email": "jakub@sitovka.net",
                 "avatar": "../../assets/images/sitovka-poctiva-agentura-1.webp"
+            },
+            {
+                "name": "Naděžda Šveřepová",
+                "isFeatured": false,
+                "role": "Social media & content manager",
+                "phone": "+420 775 177 305",
+                "email": "nadka@sitovka.net",
+                "avatar": "../../assets/images/Profile Picture from Poctivá Agentura (1).webp",
+                "objectPosition": "center"
             }
         ]
     },
